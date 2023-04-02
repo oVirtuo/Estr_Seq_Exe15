@@ -18,10 +18,10 @@ public class Salario {
         double sindicato = salarioBruto * 0.05;
         double salarioLiquido = salarioBruto - ir - inss - sindicato;
 
-        System.out.printf("\nSalário Bruto : R$ %.2f\n", salarioBruto);
+        System.out.printf("\n+Salário Bruto : R$ %.2f\n", salarioBruto);
         System.out.printf("- IR (11%%) : R$ %.2f\n", ir);
         System.out.printf("- INSS (8%%) : R$ %.2f\n", inss);
         System.out.printf("- Sindicato (5%%) : R$ %.2f\n", sindicato);
-        System.out.printf("Salário Líquido : R$ %.2f\n", salarioLiquido);
+        System.out.printf("= Salário Líquido : R$ %.2f\n", salarioLiquido);
     }
 }
