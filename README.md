@@ -6,10 +6,10 @@ Programa que pergunte quanto você ganha por hora e o número de horas trabalhad
 3. quanto pagou ao sindicato.
 4. o salário líquido.
 5. calcule os descontos e o salário líquido, conforme a tabela abaixo:
-'''
+```
 + Salário Bruto : R$
 - IR (11%) : R$
 - INSS (8%) : R$
 - Sindicato ( 5%) : R$
 = Salário Liquido : R$
-'''
+```
